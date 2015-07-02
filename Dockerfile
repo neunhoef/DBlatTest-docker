@@ -14,7 +14,7 @@ ADD ./HELP.md /HELP.md
 RUN ./scripts/install.sh
 
 # compile Mongo driver and test programs
-RUN ./scripts/install.sh
+RUN ./scripts/install2.sh
 
 # start script
 CMD ["/bin/bash"]
